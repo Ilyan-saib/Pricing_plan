@@ -1,0 +1,112 @@
+html{
+    background-color: #799BCE;
+}
+
+img{
+    cursor:alias;
+}
+
+
+
+#general{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    width: 1200px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px #4f5661;
+    background-color: rgb(255, 255, 255);
+}
+
+#mobile{
+    
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+   
+}
+
+
+#mobile:hover{
+    background-color: #eeecec;
+}
+#desktop{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 400px;
+    
+}
+
+#desktop:hover{
+    background-color: #eeecec;
+}
+
+#tv{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin-top: -400px;
+    margin-left: 800px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#tv:hover{
+    background-color: #eeecec;
+}
+
+.device{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 10%;
+    width: 100px;
+    height: 100px;
+}
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #3E63BD;
+}
+.sous_titre{
+    text-align: center;
+    font-size: large;
+    color: gray;
+    font-family:Roboto, sans-serif ;
+}
+.dollar{
+    color:#3E63BD ;
+    font-family:Roboto, sans-serif ;
+    margin-left: 44%;
+position: relative;
+right: 35px;
+    font-size: medium;
+}
+.fixe{
+    color:#3E63BD ;
+    font-family:Roboto, sans-serif ;
+   position: relative;
+    top: 20px;
+    right: 40px;
+    font-size: 45px;
+}
+.month{
+    color:#3E63BD ;
+    font-family:Roboto, sans-serif ;
+    font-size: large;
+    position: relative;
+    top: 5%;
+    right: 10%;
+}
+
+
